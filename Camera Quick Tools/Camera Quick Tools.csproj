@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <UserSecretsId>aspnet-Camera_Quick_Tools-FCA98003-1EF1-4D0E-82D0-9C9FEC655F5A</UserSecretsId>
+        <RootNamespace>Camera_Quick_Tools</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Flurl.Http" Version="3.0.1" />
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.5" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.5" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.5" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.5" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.5" />
+    </ItemGroup>
+
+</Project>
